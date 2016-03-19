@@ -120,10 +120,22 @@ div {
   /*text-shadow: 2px 2px 2px white, -2px -2px 2px white, -2px 2px 2px white, 2px -2px 2px white;*/
 }
 
-
-iframe {
+container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #000;
   border: 20px solid #000;
+}
+
+modal {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 /*SLIDE 2*/
@@ -230,7 +242,8 @@ iframe {
 .slide-5 > p {
   padding: 50px;
 }
+
 /*META*/
 .hidden {
-  display: none;
+  display: none !important;
 }
