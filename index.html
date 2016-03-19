@@ -29,9 +29,10 @@
   <div id="home" class="slide-1 video group">
     <button id="watch-button" onClick="return showVideoModal()">Watch</button>
     <modal id="video-modal" class="hidden group">
+			<button class="close-modal" onClick="return hideVideoModal()">X</button>
 			<container>
-      <iframe width="854" height="480" src="https://www.youtube.com/embed/HoHINGts1SM" frameborder="0" allowfullscreen></iframe>
-		</container>
+      	<iframe width="854" height="480" src="https://www.youtube.com/embed/HoHINGts1SM" frameborder="0" allowfullscreen></iframe>
+			</container>
 		</modal>
   </div>
 
@@ -69,12 +70,13 @@
 
   <!-- SLIDE 5 -->
   <div id="footer" class="slide-5 footer group">
-    <ul>
-      <li><a>More from River Clegg:</a></li>
+		<h4>More from River Clegg</h4>
+		<ul class="footer-list">
       <li><a href="https://twitter.com/RiverClegg">Twitter</a></li>
+			<li>~</li>
       <li><a href="http://www.mcsweeneys.net/authors/river-clegg">McSweeney's</a></li>
-      <li><a href="http://www.newyorker.com/contributors/river-clegg">New Yorker</a></li>
-      <li><a href="">River Clegg</a></li>
+			<li>~</li>
+			<li><a href="http://www.newyorker.com/contributors/river-clegg">New Yorker</a></li>
     </ul>
     <br>
     <p>River Clegg owns everything.</p>
